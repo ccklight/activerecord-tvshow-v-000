@@ -9,6 +9,7 @@ class Show < ActiveRecord::Base
 #use highest_rating as helper method here
   end
 
+
   def lowest_rating
 
   end
@@ -28,3 +29,8 @@ class Show < ActiveRecord::Base
   def popular_shows
 
   end
+
+
+  def shows_by_alphabetical_order 
+
+  end 
