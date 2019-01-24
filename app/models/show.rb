@@ -26,7 +26,7 @@ class Show < ActiveRecord::Base
 
 
   def popular_shows
-Use the where Active Record method
+#Use the where Active Record method
   end
 
 
