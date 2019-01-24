@@ -30,7 +30,9 @@ class Show < ActiveRecord::Base
 #Use the where Active Record method
   end
 
+       self.where("rating >= ?", 5)
 
+   
   # def shows_by_alphabetical_order
     #Use the order Active Record method
   # end
