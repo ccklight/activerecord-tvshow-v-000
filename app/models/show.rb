@@ -5,11 +5,11 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-
+    self.where("rating = ?", self.highest_rating)
   end
-
+# Song.where("number_of_stars > ?", 3)
   **********
-  def self.most_popular_show
+
        self.where("rating = ?", self.highest_rating).first
      end
 **********
