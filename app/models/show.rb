@@ -5,14 +5,14 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-    self.where("rating = ?", self.highest_rating).first 
+    self.where("rating = ?", self.highest_rating).first
   end
-# Song.where("number_of_stars > ?", 3)
+#Syntax is  Song.where("number_of_stars > ?", 3)
 
 
-  # def lowest_rating
-  #
-  # end
+  def lowest_rating
+
+  end
 
 
 
