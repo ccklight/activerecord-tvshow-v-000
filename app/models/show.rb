@@ -24,10 +24,7 @@ class Show < ActiveRecord::Base
     self.sum (:rating)
   end
 
-        self.sum(:rating)
-      end
-
-
+      
   # def popular_shows
 #Use the where Active Record method
   # end
