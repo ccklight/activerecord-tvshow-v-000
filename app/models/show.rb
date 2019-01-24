@@ -9,6 +9,7 @@ class Show < ActiveRecord::Base
   end
 # Song.where("number_of_stars > ?", 3)
 
+
   # def lowest_rating
   #
   # end
