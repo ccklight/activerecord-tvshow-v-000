@@ -25,7 +25,8 @@ class Show < ActiveRecord::Base
   end
 
 
-  def popular_shows
+  def self.popular_shows
+    self.where("rating > 5", self.highest_rating).first
 #Use the where Active Record method
   end
 
