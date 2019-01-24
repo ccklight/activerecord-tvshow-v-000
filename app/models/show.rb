@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
   end
 
   def most_popular_show
-use highest_rating as helper method here
+#use highest_rating as helper method here
   end
 
 
