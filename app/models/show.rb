@@ -19,11 +19,11 @@ class Show < ActiveRecord::Base
     self.where("rating = ?", self.lowest_rating).first
   end
 
-  #
-  # def ratings_sum
-  #
-  # end
-  #
+
+  def ratings_sum
+
+  end
+  
 
   # def popular_shows
 #Use the where Active Record method
