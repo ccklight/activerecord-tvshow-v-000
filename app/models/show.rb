@@ -30,7 +30,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.shows_by_alphabetical_order
-    self.
+    self.order(:shows).ascending
     Use the order Active Record method
   end
 
