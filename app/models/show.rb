@@ -5,32 +5,32 @@ class Show < ActiveRecord::Base
   # end
 
 
-  def most_popular_show
+  # def most_popular_show
 #use highest_rating as helper method here
-  end
+  # end
+
+  # 
+  # def lowest_rating
+  # 
+  # end
 
 
-  def lowest_rating
 
-  end
+  # def least_popular_show
+  # 
+  # end
+  # 
+  # 
+  # def ratings_sum
+  # 
+  # end
+  # 
 
-
-
-  def least_popular_show
-
-  end
-
-
-  def ratings_sum
-
-  end
-
-
-  def popular_shows
+  # def popular_shows
 #Use the where Active Record method
-  end
+  # end
 
 
-  def shows_by_alphabetical_order
+  # def shows_by_alphabetical_order
     #Use the order Active Record method
-  end
+  # end
