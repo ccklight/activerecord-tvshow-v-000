@@ -8,11 +8,8 @@ class Show < ActiveRecord::Base
     self.where("rating = ?", self.highest_rating)
   end
 # Song.where("number_of_stars > ?", 3)
-end
 
-       self.where("rating = ?", self.highest_rating).first
-     end
-**********
+
 
 
 
