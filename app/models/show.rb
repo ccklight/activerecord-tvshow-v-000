@@ -20,10 +20,10 @@ class Show < ActiveRecord::Base
   end
 
 
-  def ratings_sum
-
+  def self.ratings_sum
+    self.ratings.sum
   end
-  
+
 
   # def popular_shows
 #Use the where Active Record method
