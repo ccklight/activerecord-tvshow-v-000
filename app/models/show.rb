@@ -1,14 +1,9 @@
 class Show < ActiveRecord::Base
 
-  def highest_rating
-    Show.max
-  end
-  ******
   def self.highest_rating
-      self.maximum(:rating)
-    end
+    self.maximum(:rating)
+  end
 
- ******
   # def most_popular_show
 #use highest_rating as helper method here
   # end
