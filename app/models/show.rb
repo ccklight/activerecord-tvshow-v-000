@@ -6,15 +6,15 @@ class Show < ActiveRecord::Base
 
 
   def most_popular_show
-#use highest_rating as helper method here 
+#use highest_rating as helper method here
   end
 
-  def lowest_rating 
+  def lowest_rating
 
-  end 
+  end
 
 
 
-  def least_popular_show 
+  def least_popular_show
 
-  end 
+  end
