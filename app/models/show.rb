@@ -33,5 +33,4 @@ class Show < ActiveRecord::Base
 
   def shows_by_alphabetical_order
     #Use the order Active Record method
-
   end
