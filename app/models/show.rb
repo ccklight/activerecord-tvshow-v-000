@@ -33,5 +33,6 @@ class Show < ActiveRecord::Base
     self.order(:shows).ascending
     #Use the order Active Record method
   end
+  
 
 end
