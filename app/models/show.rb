@@ -32,7 +32,7 @@ class Show < ActiveRecord::Base
 
 
   def self.shows_by_alphabetical_order
-    self.order(:show)
+    self.order(:name)
   end
 
 
