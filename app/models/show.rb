@@ -29,8 +29,8 @@ class Show < ActiveRecord::Base
     self.where("rating > ?", 5)
   end
 
-  # def shows_by_alphabetical_order
-    #Use the order Active Record method
-  # end
+  def shows_by_alphabetical_order
+    Use the order Active Record method
+  end
 
 end
