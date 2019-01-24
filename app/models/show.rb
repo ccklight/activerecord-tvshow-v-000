@@ -10,8 +10,8 @@ class Show < ActiveRecord::Base
 #Syntax is  Song.where("number_of_stars > ?", 3)
 
 
-  def lowest_rating
-
+  def self. lowest_rating
+    self.where("rating = ?", self.lowest-rating).first
   end
 
 
