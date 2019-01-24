@@ -8,7 +8,7 @@ class Show < ActiveRecord::Base
   def self.most_popular_show
     self.where("rating = ?", self.highest_rating).first
   end
-#Syntax is  Song.where("number_of_stars > ?", 3)
+#Syntax from lesson:  Song.where("number_of_stars > ?", 3)
 
 
   def self. lowest_rating
