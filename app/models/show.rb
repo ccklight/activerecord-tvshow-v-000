@@ -1,8 +1,8 @@
 class Show < ActiveRecord::Base
 
-  # def highest_rating
-  #   Show.max
-  # end
+  def highest_rating
+    Show.max
+  end
 
 
   # def most_popular_show
@@ -35,4 +35,4 @@ class Show < ActiveRecord::Base
     #Use the order Active Record method
   # end
 
-end 
+end
