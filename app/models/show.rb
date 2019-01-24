@@ -26,10 +26,10 @@ class Show < ActiveRecord::Base
 
 
   def self.popular_shows
-    self.where("rating > ?", 5) self.highest_rating).first
+    self.where("rating > ?", 5) self.highest_rating.first
 #Use the where Active Record method
   end
-   
+
   # def shows_by_alphabetical_order
     #Use the order Active Record method
   # end
